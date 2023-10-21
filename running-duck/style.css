@@ -1,0 +1,38 @@
+:root {
+    --road-size: 84px;
+}
+
+body {
+    background-color: rgb(13, 39, 233);
+}
+
+.grid {
+    width: calc(var(--road-size) * 10);
+    height: 320px;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 15px solid aqua;
+}
+
+.grid>div {
+    width: var(--road-size);
+    height: var(--road-size);
+}
+
+.duck {
+    background-image: url('./resources/little-duck.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.jumping-duck {
+    transform: translate(0, -120%);
+}
+
+.buoy:not(.duck) {
+    background-image: url('./resources/obstacle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
