@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Running Duck</title>
+    <title>Whack-A-Mole</title>
     <link rel="stylesheet" href="../common/style.css">
     <link rel="stylesheet" href="./resources/style.css">
 </head>
@@ -14,23 +14,23 @@
     <div class="game-container">
         <div class="game-area">
             <div class="grid">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
             </div>
         </div>
         <div class="game-data">
-            <h1>RUNNING DUCK</h1>
-            <p>Press the SPACE bar to jump and avoid the floating buoy!</p>
-            <h3>Level: <span id="level"></span></h3>
+            <h1>WHACK-A-MOLE</h1>
+            <p>Hit the mole as many times as you can before the timer elapses!</p>
+            <h3>Time: <span id="timer"></span></h3>
             <h3>Score: <span id="score"></span></h3>
+            <button id="restart">Play again!</button>
         </div>
     </div>
 

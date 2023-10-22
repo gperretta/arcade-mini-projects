@@ -41,3 +41,7 @@ p {
     color: white;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+a {
+    text-decoration: none;
+}

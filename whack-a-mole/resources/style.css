@@ -1,0 +1,50 @@
+:root {
+    --cell-size: 150px;
+    --cell-gutter: 60px;
+}
+
+body {
+    background-color: #008E0E;
+}
+
+.grid {
+    width: calc(var(--cell-size) * 3 + var(--cell-gutter));
+    height: calc(var(--cell-size) * 3 + var(--cell-gutter));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.cell {
+    border: 3px solid #422800;
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.mole {
+    background-image: url('./images/talpa.png');
+}
+
+.hit {
+    background-image: url('./images/talpa-colpita.png');
+}
+
+#restart {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Lucida Console", "Courier New", monospace;
+}

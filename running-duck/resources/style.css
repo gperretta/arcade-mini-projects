@@ -20,7 +20,7 @@ body {
 }
 
 .duck {
-    background-image: url('./resources/little-duck.png');
+    background-image: url('./images/little-duck.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -31,7 +31,7 @@ body {
 }
 
 .buoy:not(.duck) {
-    background-image: url('./resources/obstacle.png');
+    background-image: url('./images/obstacle.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
