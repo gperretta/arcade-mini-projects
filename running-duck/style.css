@@ -1,5 +1,5 @@
 :root {
-    --road-size: 84px;
+    --cell-size: 84px;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 .grid {
-    width: calc(var(--road-size) * 10);
+    width: calc(var(--cell-size) * 10);
     height: 320px;
     display: flex;
     align-items: flex-end;
@@ -15,8 +15,8 @@ body {
 }
 
 .grid>div {
-    width: var(--road-size);
-    height: var(--road-size);
+    width: var(--cell-size);
+    height: var(--cell-size);
 }
 
 .duck {
