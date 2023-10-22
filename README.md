@@ -15,7 +15,7 @@
         <li>the level and the speed of the buoy: both increased by one each time the score will reach a value that's a multiple of 50</li>
      </ul>
 </p>
-<img src="common/screenshots/running-duck-screen.png"/>
+<img src="common/screenshots/rd-screen.png"/>
 
 <h3>Whack-A-Mole</h3>
 <p>
@@ -23,7 +23,7 @@
     There's one easy rule: hit the mole as many times as you can until the time is up!<br>
 </p>
 <p>
-    The game area is a grid, where each cell is a div, where the mole will appear.<br>
+    The game area is a grid and each cell is a div, where the mole will appear.<br>
     You can hit the mole by tapping on it with the cursor, just be fast: the timer is running and the mole is speeding up as well, increasing the difficulty of the game second by second.<br>
     When a mole gets hit, your score goes up by one - and the mole will be <em>clearly</em> hurt.
 </p>

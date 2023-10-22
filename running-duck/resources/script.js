@@ -57,4 +57,9 @@ function jump(event) {
     }
 }
 
+const restartButton = document.getElementById('restart');
+restartButton.addEventListener('click', function () {
+    window.location.reload();
+})
+
 document.addEventListener('keydown', jump);
