@@ -14,6 +14,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
+    cursor: url('./images/martellino.png'), auto;
 }
 
 .cell {
@@ -23,7 +24,6 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    cursor: pointer;
 }
 
 .mole {
